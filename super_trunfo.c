@@ -26,27 +26,27 @@ int main() {
     float PIB1;
     int NPTuristicos1; //NPTuristicos = Número de Pontos Turísticos
     
-    printf ("Estado1\n");
+    printf ("Insira o Estado1\n");
     scanf ("%c", &Estado1);
     
-    printf ("Codigo1\n");
+    printf ("Insira o Codigo1\n");
     scanf ("%s", Codigo1);
     
-    printf ("Cidade1\n");
+    printf ("Insira a Cidade1\n");
     scanf ("%s", Cidade1);
     
-    printf ("População1\n");
+    printf ("Insira a População1\n");
     scanf ("%d", &Populacao1);
     
     printf ("Area1\n");
     scanf(" %f", &Area1);
-    printf ("Area1\n");
+    printf ("Insira a Area1\n");
     scanf(" %f", &Area1);
     
-    printf ("PIB1\n");
+    printf ("Insira o PIB1\n");
     scanf ("%f", &PIB1);
     
-    printf ("NPTuristicos1\n");
+    printf ("Insira o NPTuristicos1\n");
     scanf ("%d", &NPTuristicos1);
     
     printf ("Carta 1\n");
@@ -66,27 +66,27 @@ int main() {
     float PIB2;
     int NPTuristicos2; //NPTuristicos = Número de Pontos Turísticos
     
-    printf ("Estado2\n");
+    printf ("Insira o Estado2\n");
     scanf (" %c", &Estado2);
     
-    printf ("Codigo2\n");
+    printf ("Insira o Codigo2\n");
     scanf ("%s", Codigo2);
     
-    printf ("Cidade2\n");
+    printf ("Insira a Cidade2\n");
     scanf ("%s", Cidade2);
     
-    printf ("População2\n");
+    printf ("Insira a População2\n");
     scanf ("%d", &Populacao2);
     
     printf ("Area2\n");
     scanf(" %f", &Area2);
-    printf ("Area2\n");
+    printf ("Insira a Area2\n");
     scanf(" %f", &Area2);
     
-    printf ("PIB2\n");
+    printf ("Insira o PIB2\n");
     scanf ("%f", &PIB2);
     
-    printf ("NPTuristicos2\n");
+    printf ("Insira o NPTuristicos2\n");
     scanf ("%d", &NPTuristicos2);
     
     printf ("Carta 2\n");
