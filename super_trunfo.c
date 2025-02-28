@@ -18,35 +18,35 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    char Estado1;
-    char Codigo1[5];
-    char Cidade1[19];
-    int Populacao1;
-    float Area1; // Área em km2
-    float PIB1;
-    int NPTuristicos1; //NPTuristicos = Número de Pontos Turísticos
+    char Estado1, Estado2;
+    char Codigo1[5], Codigo2[5];
+    char Cidade1[19], Cidade2[19];
+    int Populacao1, Populacao2;
+    float Area1, Area2; // Área em km2
+    float PIB1, PIB2;
+    int NPTuristicos1, NPTuristicos2; //NPTuristicos = Número de Pontos Turísticos
     
-    printf ("Insira o Estado1\n");
+    printf ("Digite o nome do Estado1\n");
     scanf ("%c", &Estado1);
     
-    printf ("Insira o Codigo1\n");
+    printf ("Digite o Codigo1\n");
     scanf ("%s", Codigo1);
     
-    printf ("Insira a Cidade1\n");
+    printf ("Digite o nome da Cidade1\n");
     scanf ("%s", Cidade1);
     
-    printf ("Insira a População1\n");
+    printf ("Digite a População1\n");
     scanf ("%d", &Populacao1);
     
-    printf ("Area1\n");
+    printf ("Insira o tamanho da Area1\n");
     scanf(" %f", &Area1);
-    printf ("Insira a Area1\n");
+    printf ("Insira o tamanho da Area1\n");
     scanf(" %f", &Area1);
     
-    printf ("Insira o PIB1\n");
+    printf ("Digte o valor do PIB1\n");
     scanf ("%f", &PIB1);
     
-    printf ("Insira o NPTuristicos1\n");
+    printf ("Digite o NPTuristicos1\n");
     scanf ("%d", &NPTuristicos1);
     
     printf ("Carta 1\n");
@@ -58,35 +58,27 @@ int main() {
     printf ("PIB: %f\n", PIB1);
     printf ("NPTuristicos: %d\n", NPTuristicos1);
 
-    char Estado2;
-    char Codigo2[5];
-    char Cidade2[19];
-    int Populacao2;
-    float Area2; //Área em km2
-    float PIB2;
-    int NPTuristicos2; //NPTuristicos = Número de Pontos Turísticos
-    
-    printf ("Insira o Estado2\n");
+    printf ("Digite o nome do Estado2\n");
     scanf (" %c", &Estado2);
     
-    printf ("Insira o Codigo2\n");
+    printf ("Digite o Codigo2\n");
     scanf ("%s", Codigo2);
     
-    printf ("Insira a Cidade2\n");
+    printf ("Digite o nome da Cidade2\n");
     scanf ("%s", Cidade2);
     
-    printf ("Insira a População2\n");
+    printf ("Digite a População2\n");
     scanf ("%d", &Populacao2);
     
-    printf ("Area2\n");
+    printf ("Digite o tamanho da Area2\n");
     scanf(" %f", &Area2);
-    printf ("Insira a Area2\n");
+    printf ("Digite o tamanho da Area2\n");
     scanf(" %f", &Area2);
     
-    printf ("Insira o PIB2\n");
+    printf ("Digite o valor do PIB2\n");
     scanf ("%f", &PIB2);
     
-    printf ("Insira o NPTuristicos2\n");
+    printf ("Digite o NPTuristicos2\n");
     scanf ("%d", &NPTuristicos2);
     
     printf ("Carta 2\n");
