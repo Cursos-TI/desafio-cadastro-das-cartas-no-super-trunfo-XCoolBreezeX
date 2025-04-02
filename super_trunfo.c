@@ -115,7 +115,7 @@ int main() {
     printf ( "PIB per Capita: %.2f reais\n", PibPerCapita2);
     printf ("Super Poder: %.2f\n", SuperPoder2);
 
-    //Comparando as cartas, 1 = sim, 0 = náo
+    //Comparando as cartas, 1 = sim, 0 = não
 
     printf ("População: Carta 1 venceu (%d)\n", (Populacao1 > Populacao2));
     printf ("Area: Carta 1 venceu (%d)\n", (Area1 > Area2));
@@ -125,6 +125,13 @@ int main() {
     printf ("PIB per capita: (%d)\n", (PibPerCapita1 > PibPerCapita2));
     printf ("Super Poder: (%d)\n", (SuperPoder1 > SuperPoder2));
 
+    //Comparação usando lógica if/else
+
+    if (Populacao1 > Populacao2){
+        printf("***Carta 1 venceu***");
+    } else {
+        printf("***Carta 2 venceu***");
+    }
     
     return 0;
 }
