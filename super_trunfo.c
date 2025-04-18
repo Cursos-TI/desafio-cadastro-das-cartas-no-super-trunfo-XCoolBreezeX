@@ -28,6 +28,7 @@ int main() {
     float DensidadePopulacional1, DensidadePopulacional2;
     float PibPerCapita1, PibPerCapita2;
     float SuperPoder1, SuperPoder2;
+    int opcao;
     
     // Registro da Carta 1
 
@@ -132,6 +133,70 @@ int main() {
     } else {
         printf("***Carta 2 venceu***");
     }
-    
+
+    //Comparação com base na escolha do jogador
+    printf("\n");
+    printf("*** Comparação de atributos entre as duas cartas ***\n");
+    printf("Escolha uma opção\n");
+    printf("1. População\n");
+    printf("2. Área\n");
+    printf("3. PIB\n");
+    printf("4. Número de Pontos Turísticos\n");
+    printf("5. Densidade Populacional\n");
+    scanf("%d", &opcao);
+
+    switch (opcao)
+    {
+        case 1:
+        if (Populacao1 > Populacao2){
+            printf("Carta 1 venceu\n");
+        } else if (Populacao1 < Populacao2){
+            printf("Carta 2 venceu\n");
+        } else {
+            printf("Houve um empate!\n");
+        }
+        break;
+        case 2:
+        if (Area1> Area2){
+            printf("Carta 1 venceu\n");
+        } else if (Area1 < Area2){
+            printf("Carta 2 venceu\n");
+        } else {
+            printf("Houve um empate!\n");
+        }
+        break;
+        case 3:
+        if (PIB1 > PIB2){
+            printf("Carta 1 venceu\n");
+        } else if (PIB1 < PIB2){
+            printf("Carta 2 venceu\n");
+        } else {
+            printf("Houve um empate!\n");
+        }
+        break;
+        case 4:
+        if (NPTuristicos1 > NPTuristicos1){
+            printf("Carta 1 venceu\n");
+        } else if (NPTuristicos1 < NPTuristicos2){
+            printf("Carta 2 venceu\n");
+        } else {
+            printf("Houve um empate!\n");
+        }
+        break;
+        case 5:
+        if (DensidadePopulacional1 < DensidadePopulacional2){
+            printf("Carta 1 venceu\n");
+        } else if (DensidadePopulacional1 > DensidadePopulacional2){
+            printf("Carta 2 venceu\n");
+        } else {
+            printf("Houve um empate!\n");
+        }
+        break;
+            
+        
+        
+    }
+
+
     return 0;
 }
